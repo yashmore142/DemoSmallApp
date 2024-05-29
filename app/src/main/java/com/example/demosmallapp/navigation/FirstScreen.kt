@@ -29,7 +29,8 @@ import com.example.demosmallapp.HomeScreen
 @Composable
 fun Navigation() {
     val navController = rememberNavController()
-    NavHost(navController = navController, startDestination = Screens.FirstScreen.route) {
+    NavHost(navController = navController, startDestination =
+    Screens.FirstScreen.route) {
         composable(route = Screens.FirstScreen.route) {
             FirstScreenn(navController = navController)
         }
